@@ -1,0 +1,44 @@
+{
+    "validContactDetails": {
+        "name": "Freddy Mercury",
+        "email": "queen@example.com",
+        "phone": "123456789",
+        "subject": "Room issue",
+        "message": "This is a test message."
+    },
+    "EmptyName": {
+        "name": "",
+        "email": "janesmith@example.com",
+        "phone": "987654321",
+        "subject": "Support Request",
+        "message": "Please help with account access."
+    },
+    "EmptySubject": {
+        "name": "Robert Roberta",
+        "email": "robert@awesome.com",
+        "phone": "45698712365",
+        "subject": "",
+        "message": "I need more shampoo."
+    },
+    "EmptyMessage": {
+        "name": "daniel daniela",
+        "email": "davina@test.com",
+        "phone": "96385214789",
+        "subject": "Missing message",
+        "message": ""
+    },
+    "IncorrectPhoneNumber": {
+        "name": "Emma Clever",
+        "email": "Clever@example.com",
+        "phone": "1234",
+        "subject": "Feedback",
+        "message": "Keep it up."
+    },
+    "ValidBookingDetails":{
+        "firstname": "Babs",
+        "lastname": "business",
+        "email": "Babs@example.com",
+        "phone": "74125896321"
+        
+    }
+}

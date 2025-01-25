@@ -1,0 +1,62 @@
+[
+    {
+        "originalRoomName": "2004",
+        "type": "Single",
+        "price": "100",
+        "accessible": "true",
+        "features": [
+          "WiFi",
+          "TV"
+        ],
+        "updatedRoomName": "2004A",
+        "updatedType": "Double",
+        "updatedPrice": "120",
+        "updatedAccessible": "false",
+        "updatedFeatures": [
+            "WiFi",
+            "Refreshments"
+        ],
+        "description": "Spacious room",
+        "image": "/images/room2.jpg"
+    },
+    {
+        "originalRoomName": "2005",
+        "type": "Single",
+        "price": "100",
+        "accessible": "true",
+        "features": [
+          "WiFi",
+          "TV"
+        ],
+        "updatedRoomName": "2005A",
+        "updatedType": "Twin",
+        "updatedPrice": "180",
+        "updatedAccessible": "true",
+        "updatedFeatures": [
+            "WiFi",
+            "TV",
+            "Views"
+        ],
+        "description": "Room with nice Views",
+        "image": "/images/room1.jpg"
+    },
+    {
+        "originalRoomName": "2006",
+        "type": "Twin",
+        "price": "200",
+        "accessible": "true",
+        "features": [
+          "WiFi",
+          "TV"
+        ],
+        "updatedRoomName": "2006A",
+        "updatedType": "Family",
+        "updatedPrice": "350",
+        "updatedAccessible": "false",
+        "updatedFeatures": [
+            "WiFi"
+        ],
+        "description": "Room with wifi included in the price",
+        "image": "/images/room3.jpg"
+    }
+]

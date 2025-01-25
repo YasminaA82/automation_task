@@ -1,0 +1,12 @@
+{
+    "bookingdates": {
+        "checkin": "2025-01-12",
+        "checkout": "2025-01-14"
+    },
+    "depositpaid": false,
+    "firstname": "Alice",
+    "lastname": "Wonderland",
+    "roomid": 1,
+    "email": "alice@wonderland.com",
+    "phone":"12345698798"
+}

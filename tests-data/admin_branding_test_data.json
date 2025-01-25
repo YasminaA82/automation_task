@@ -1,0 +1,83 @@
+{
+    "validData": {
+        "hotelName": "Shady Meadows B&B",
+        "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+        "hotelDescription": "Welcome to Shady Meadows, a delightful Bed & Breakfast nestled in the hills on Newingtonfordburyshire. A place so beautiful you will never want to leave. All our rooms have comfortable beds and we provide breakfast from the locally sourced supermarket. It is a delightful place.",
+        "latitude": "52.6351204",
+        "longitude": "1.2733774",
+        "contactName": "Shady Meadows B&B",
+        "address": "The Old Farmhouse, Shady Street, Newfordburyshire, NE1 410S",
+        "phone": "012345678901",
+        "email": "fake@fakeemail.com"
+    },
+    "incorrectData": {
+        "missingHotelName": {
+            "hotelName": "",
+            "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+            "hotelDescription": "Welcome to Shady Meadows. It is a delightful place.",
+            "latitude": "52.6351204",
+            "longitude": "1.2733774",
+            "contactName": "Shady Meadows B&B",
+            "address": "The Old Farmhouse",
+            "phone": "987654321022",
+            "email": "booking@empty.com"
+        },
+        "invalidPhone": {
+            "hotelName": "The famous Inn",
+            "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+            "hotelDescription": "It is a delightful place.",
+            "latitude": "52.6351204",
+            "longitude": "1.2733774",
+            "contactName": "Shady Meadows B&B",
+            "address": "The New Farmhouse",
+            "phone": "invalid-phone",
+            "email": "info@booking.com"
+        },
+        "invalidEmail": {
+            "hotelName": "The amazing hotel",
+            "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+            "hotelDescription": "Welcome to Shady Meadows. It is a delightful place.",
+            "latitude": "52.6351204",
+            "longitude": "1.2733774",
+            "contactName": "Shady Meadows B&B",
+            "address": "The Old Farmhouse",
+            "phone": "987654321022",
+            "email": "invalid-email"
+        }
+    },
+    "edgeCases": {
+        "longStrings": {
+            "hotelName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+            "hotelDescription": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+            "latitude": "52.6351204",
+            "longitude": "1.2733774",
+            "contactName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "address": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "phone": "+1-999-999-9999",
+            "email": "long-email@example.com"
+        },
+        "minimalData": {
+            "hotelName": "A",
+            "hotelLogo": "https://www.mwtestconsultancy.co.uk/img/rbp-logo.png",
+            "hotelDescription": "B",
+            "latitude": "52.6351204",
+            "longitude": "1.2733774",
+            "contactName": "S",
+            "address": "C",
+            "phone": "+1-1",
+            "email": "a@b.co"
+        },
+        "allEmpty": {
+            "hotelName": "",
+            "hotelLogo": "",
+            "hotelDescription": "",
+            "latitude": "",
+            "longitude": "",
+            "contactName": "",
+            "address": "",
+            "phone": "",
+            "email": ""
+        }
+    }
+}

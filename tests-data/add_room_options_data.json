@@ -1,0 +1,35 @@
+[
+  {
+    "roomName": "2001",
+    "type": "Single",
+    "price": "100",
+    "accessible": "true",
+    "features": [
+      "WiFi",
+      "TV"
+    ]
+  },
+  {
+    "roomName": "2002",
+    "type": "Double",
+    "price": "150",
+    "accessible": "false",
+    "features": [
+      "WiFi",
+      "TV",
+      "Refreshments"
+    ]
+  },
+  {
+    "roomName": "2003",
+    "type": "Suite",
+    "price": "300",
+    "accessible": "true",
+    "features": [
+      "WiFi",
+      "TV",
+      "Refreshments",
+      "Views"
+    ]
+  }
+]
